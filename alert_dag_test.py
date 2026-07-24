@@ -35,7 +35,8 @@ def alert_testing_dag():
     @task
     def failing_task_with_alert():
         print("Task start ho raha hai...")
-        raise ValueError("Database connection lost!") # Jaan-boojh kar crash
+        time.sleep(60)
+        #raise ValueError("Database connection lost!") # Jaan-boojh kar crash
 
     failing_task_with_alert()
 
