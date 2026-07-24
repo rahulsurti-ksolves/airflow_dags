@@ -1,0 +1,9 @@
+# Kubernetes & Helm temp files
+*.tmp
+*.log
+.DS_Store
+
+# Secret/Key files (DO NOT COMMIT REAL KEYS)
+*.key
+*.pem
+*.keytab
